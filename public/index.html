@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>Junky</title>
+    </head>
+    <body>
+        <script src="js/auth/isSignedIn.js"></script>
+        <header class="header container">
+            <div class="logo left">
+                <a href="../index.html">Junky</a>
+            </div>
+
+            <div class="navbar center">
+                <a href="/index.html" class="active">Home</a>
+                <a href="/index.html">Workshop</a>
+                <a href="mailto:shukri.mamatsashvili.1@btu.edu.ge"
+                    >Contact us</a
+                >
+            </div>
+
+            <select class="language-switcher">
+                <option default>EN</option>
+                <option>KA</option>
+            </select>
+            <div class="buttons"></div>
+
+            <div class="menu-icon" id="menuIcon">
+                <div class="icon-bar"></div>
+                <div class="icon-bar"></div>
+                <div class="icon-bar"></div>
+            </div>
+
+            <div class="menu" id="menu">
+                <span class="mobile-auth-buttons">
+                    <a href="/login.html">Log in</a>
+                    <a href="/login.html">Register</a>
+                </span>
+                <a href="/index.html">Home</a>
+                <a href="/index.html">Workshop</a>
+                <a href="mailto:shukri.mamatsashvili.1@btu.edu.ge"
+                    >Contact us</a
+                >
+            </div>
+        </header>
+
+        <main>
+            <div class="hero-container">
+                <h1 class="hero-title logo">Junky</h1>
+                <p class="hero-quote">"SIX DECADES OF INDIVIDUALITY"</p>
+            </div>
+            <div class="content-container">
+                <h2 class="carousel-title">New Arrivals</h2>
+                <hr />
+                <div class="carousel-container">
+                    <div class="carousel" id="productCarousel"></div>
+                    <button class="carousel-arrow carousel-arrow-left">
+                        ◄
+                    </button>
+                    <button class="carousel-arrow carousel-arrow-right">
+                        ►
+                    </button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <cite>© Designed and Developed by Shukri Mamatsashvili</cite>
+        </footer>
+        <script src="js/util/hamburgerToggle.js"></script>
+        <script src="js/util/main.js"></script>
+    </body>
+</html>

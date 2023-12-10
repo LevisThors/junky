@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "email": "testuser@mail.com",
+      "name": "Test",
+      "lastname": "User",
+      "password": "test123",
+      "id": 2,
+      "signed_in": 0
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "https://cdn.media.amplience.net/i/drmartens/11822006.80.jpg?$icon$",
+      "title": "1460 SMOOTH LEATHER LACE UP BOOTS",
+      "description": "The 1460 is the original Dr. Martens boot. Its instantly recognizable DNA looks like this: 8 eyes, classic Dr. Martens Smooth leather, grooved sides, a heel-loop, yellow stitching, and a comfortable, air-cushioned sole. Now in more shades than ever. Born on 01.04.60. Named the 1460. Over six decades, our 8-eye work boot has become iconic Hardwearing and famously tough, our Smooth leather can be polished to shine or scuffed-up Our Goodyear-welted lines are heat-sealed at 700°C and reinforced with our signature welt stitch",
+      "status": "In Stock",
+      "price": 159
+    },
+    {
+      "id": 2,
+      "image": "https://cdn.media.amplience.net/i/drmartens/11838002.80.jpg?$icon$",
+      "title": "1461 SMOOTH LEATHER OXFORD SHOES",
+      "description": "Docs Originals. In more shades than ever. Each season, we're enhancing our collection with classic colors from the DM's vault. Built from our traditional, durable Smooth leather. Fixed to a classic air-cushion sole with our signature Goodyear welt yellow stitches. Looking back and stepping forwards.",
+      "status": "Out of Stock",
+      "price": 129
+    },
+    {
+      "id": 3,
+      "image": "https://cdn.media.amplience.net/i/drmartens/11822600.80.jpg?$icon$",
+      "title": "1460 SMOOTH LEATHER LACE UP BOOTS",
+      "description": "The 1460 is the original Dr. Martens boot. Its instantly recognizable DNA looks like this: 8 eyes, classic Dr. Martens Smooth leather, grooved sides, a heel-loop, yellow stitching, and a comfortable, air-cushioned sole. Now in more shades than ever.",
+      "status": "In Stock",
+      "price": 159
+    },
+    {
+      "id": 4,
+      "image": "https://cdn.media.amplience.net/i/drmartens/22210001.80.jpg?$icon$",
+      "title": "3989 SMOOTH LEATHER BROGUE SHOES",
+      "description": "First made in the mid-'60s, the unisex 3989 Brogue shoe features a unique combo of wingtip style with AirWair Bouncing Soles - a rebellious union of proper menswear and counterculture attitude.",
+      "status": "Out of Stock",
+      "price": 139
+    },
+    {
+      "id": 5,
+      "image": "https://cdn.media.amplience.net/i/drmartens/22209001.80.jpg?$icon$",
+      "title": "ADRIAN YELLOW STITCH SMOOTH LEATHER TASSLE LOAFERS",
+      "description": "Manufactured at the original Dr. Martens Cobbs Lane factory, The Adrian Tassel Loafer first hit the streets in 1980. And with a double tassel and kiltie fringe, the traditional unisex slip-on loafer has been a classic since day one.",
+      "status": "In Stock",
+      "price": 129
+    },
+    {
+      "id": 6,
+      "image": "https://cdn.media.amplience.net/i/drmartens/14852001.80.jpg?$icon$",
+      "title": "POLLEY SMOOTH LEATHER MARY JANE SHOES",
+      "description": "The Polley Mary Jane takes the grade school uniform look and turns up the edgy schoolgirl rebellion — all in our classic Smooth leather.",
+      "status": "In Stock",
+      "price": 129
+    },
+    {
+      "id": 7,
+      "image": "https://cdn.media.amplience.net/i/drmartens/14573601.80.jpg?$icon$",
+      "title": "ADRIAN ARCADIA LEATHER TASSEL LOAFERS",
+      "description": "The Tassel Loafer is a subcultural classic and is offered here in Arcadia leather which is a traditional grain leather, with its rub-off surface polished away to reveal an undertone. The classic tassel loafer in Burgundy Polished Smooth leather is made with Goodyear welt meaning the upper and sole are heat-sealed and sewn together. The Classic Dr. Martens air-cushioned sole is oil and fat resistant and has good abrasion and slip resistance.",
+      "status": "In Stock",
+      "price": 129
+    },
+    {
+      "id": 8,
+      "image": "https://cdn.media.amplience.net/i/drmartens/14573001.80.jpg?$icon$",
+      "title": "ADRIAN SMOOTH LEATHER TASSEL LOAFERS",
+      "description": "The Tassel Loafer is a subcultural classic and is offered here in our polished smooth leather, a twist on the classic Dr. Martens leather: durable, with a smooth and polished finish. The classic tassel loafer in Black Polished Smooth leather is made with Goodyear welt, meaning the upper and sole are heat-sealed and sewn together. Dr. Martens air-cushioned sole is oil and fat resistant and offers good abrasion and slip resistance.",
+      "status": "In Stock",
+      "price": 129
+    },
+    {
+      "id": 9,
+      "image": "https://cdn.media.amplience.net/i/drmartens/12308001.80.jpg?$icon$",
+      "title": "VINTAGE 1460 QUILON LEATHER ANKLE BOOTS",
+      "description": "The Made in England Vintage collection is handcrafted by our Northamptonshire factory cobblers using original construction techniques — plus Quilon, our rare, original specification Dr. Martens leather. Thick and corrected-grain with a matte finish, this leather only gets better with age.",
+      "status": "In Stock",
+      "price": 209
+    },
+    {
+      "id": 10,
+      "image": "https://cdn.media.amplience.net/i/drmartens/11838600.80.jpg?$icon$",
+      "title": "1461 SMOOTH LEATHER OXFORD SHOES",
+      "description": "Docs Originals. In more shades than ever. Each season, we're enhancing our collection with classic colors from the DM's vault. Built from our traditional, durable Smooth leather. Fixed to a classic air-cushion sole with our signature Goodyear welt yellow stitches. Looking back and stepping forwards.",
+      "status": "In Stock",
+      "price": 129
+    }
+  ]
+}

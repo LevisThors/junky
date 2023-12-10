@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/styles.css" />
+        <title>Junky</title>
+    </head>
+    <body>
+        <script src="js/auth/isSignedIn.js"></script>
+        <header class="header container">
+            <div class="logo left">
+                <a href="../index.html">Junky</a>
+            </div>
+
+            <div class="navbar center">
+                <a href="/index.html" class="active">Home</a>
+                <a href="/index.html">Workshop</a>
+                <a href="mailto:shukri.mamatsashvili.1@btu.edu.ge"
+                    >Contact us</a
+                >
+            </div>
+
+            <select class="language-switcher">
+                <option default>EN</option>
+                <option>KA</option>
+            </select>
+            <div class="buttons"></div>
+
+            <div class="menu-icon" id="menuIcon">
+                <div class="icon-bar"></div>
+                <div class="icon-bar"></div>
+                <div class="icon-bar"></div>
+            </div>
+
+            <div class="menu" id="menu">
+                <span class="mobile-auth-buttons">
+                    <a href="/login.html">Log in</a>
+                    <a href="/login.html">Register</a>
+                </span>
+                <a href="#">Home</a>
+                <a href="#">Workshop</a>
+                <a href="mailto:shukri.mamatsashvili.1@btu.edu.ge"
+                    >Contact us</a
+                >
+            </div>
+        </header>
+        <div class="login-register-heading">
+            <h1>At Junky you can</h1>
+            <div class="customer-offers">
+                <ul>
+                    <li>
+                        <img src="assets/recycle-sign.png" height="45px" />
+                        <p>Help Recycle</p>
+                    </li>
+                    <li>
+                        <img src="assets/shopping-cart.png" height="45px" />
+                        <p>Buy</p>
+                    </li>
+                    <li>
+                        <img src="assets/hand.png" height="45px" />
+                        <p>Sell</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="login-register-switch">
+            <button class="active-button" id="loginSwitch">Login</button>
+            <button id="registerSwitch">Register</button>
+        </div>
+        <div class="login-page-container">
+            <form method="POST" action="" class="login-form">
+                <h2>Login</h2>
+                <hr />
+                <div class="form-input-container">
+                    <div class="input-container">
+                        <label class="input-label">E-mail</label>
+                        <input
+                            type="email"
+                            id="loginEmail"
+                            class="input-field"
+                        />
+                    </div>
+                </div>
+
+                <div class="form-input-container">
+                    <div class="input-container">
+                        <label class="input-label">Password</label>
+                        <input
+                            type="password"
+                            id="loginPassword"
+                            class="input-field"
+                        />
+                    </div>
+                </div>
+                <p id="loginError" class="error"></p>
+                <div class="button-container">
+                    <button
+                        type="submit"
+                        class="primary-submit-button"
+                        id="loginBtn"
+                    >
+                        Login
+                    </button>
+                </div>
+            </form>
+
+            <form
+                method="POST"
+                action=""
+                id="registrationForm"
+                class="register-form hidden-mobile"
+            >
+                <h2>Register</h2>
+                <hr />
+                <div class="form-input-container">
+                    <div class="form-input-container">
+                        <div class="input-container">
+                            <label class="input-label">First Name</label>
+                            <input
+                                required
+                                id="registerName"
+                                class="input-field"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-input-container">
+                    <div class="form-input-container">
+                        <div class="input-container">
+                            <label class="input-label">Last Name</label>
+                            <input id="registerLastname" class="input-field" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-input-container">
+                    <div class="form-input-container">
+                        <div class="input-container">
+                            <label class="input-label">E-mail</label>
+                            <input
+                                required
+                                id="registerEmail"
+                                type="email"
+                                class="input-field"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-input-container">
+                    <div class="form-input-container">
+                        <div class="input-container">
+                            <label class="input-label">Password</label>
+                            <input
+                                required
+                                id="registerPassword"
+                                type="password"
+                                class="input-field"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-input-container">
+                    <div class="form-input-container">
+                        <div class="input-container">
+                            <label class="input-label">Confirm Password</label>
+                            <input
+                                required
+                                id="registerConfirmPassword"
+                                type="password"
+                                class="input-field"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <p id="registrationError" class="error"></p>
+
+                <div class="button-container">
+                    <button id="registerBtn" class="primary-submit-button">
+                        Register
+                    </button>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <cite>© Designed and Developed by Shukri Mamatsashvili</cite>
+        </footer>
+        <script src="js/auth/auth.js"></script>
+        <script src="js/util/hamburgerToggle.js"></script>
+        <script src="js/util/authSwitcher.js"></script>
+    </body>
+</html>

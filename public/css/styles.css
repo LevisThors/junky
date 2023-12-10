@@ -1,0 +1,537 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbit&display=swap");
+
+:root {
+    --light-grey: #d3d3d3;
+    --black: #242124;
+    --white: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: "Raleway";
+}
+
+.header {
+    padding: 15px;
+    padding-inline: 35px;
+    height: 40px;
+    display: flex;
+    background-color: var(--black);
+    position: relative;
+}
+
+.header * {
+    display: flex;
+    align-content: center;
+}
+
+.logo {
+    font-family: "Abril Fatface", cursive;
+    margin-right: auto;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.navbar {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding-inline: 20px;
+    border-bottom: 1px var(--black) solid;
+    transition: border 0.2s ease;
+}
+
+.navbar a:hover {
+    border-bottom: 1px var(--light-grey) solid;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttons {
+    height: 100%;
+    align-items: center;
+}
+
+.buttons a {
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 6px 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    height: fit-content;
+}
+
+/* Hamburger Menu */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-icon .icon-bar {
+    width: 22px;
+    height: 3px;
+    background-color: #333;
+    margin-bottom: 3px;
+}
+
+.menu {
+    clear: both;
+    display: none;
+    padding-top: 20px;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    background-color: var(--black);
+}
+
+.hero-container {
+    height: fit-content;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-block: 100px;
+}
+
+.hero-title {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.hero-quote {
+    font-size: 2.6rem;
+}
+
+.content-container {
+    background-color: white;
+    padding-top: 60px;
+}
+
+.carousel-title {
+    color: black;
+    font-size: 2rem;
+    padding-inline: 50px;
+}
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 55px;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.3s ease;
+    padding-inline: 55px;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 300px;
+    height: fit-content;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 0rem;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    padding: 50px;
+    height: 100%;
+    background-color: #ffffff00;
+    transition: background 0.3s ease;
+}
+
+.carousel-arrow:hover {
+    background-color: #0000002f;
+    font-size: 2rem;
+}
+
+.carousel-arrow-left {
+    left: 10px;
+}
+
+.carousel-arrow-right {
+    right: 10px;
+}
+
+.card {
+    width: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2px;
+    text-decoration: none;
+    color: var(--black);
+    position: relative;
+}
+
+.card-image {
+    width: inherit;
+    height: 380px;
+    max-height: 380px;
+}
+
+.card-title {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.card-rating {
+    font-size: 1rem;
+}
+
+.card-price {
+    font-size: 1.2rem;
+    font-family: "Orbit", sans-serif;
+    font-weight: bold;
+}
+
+.label {
+    position: absolute;
+    top: 1%;
+    left: 0;
+    width: 80%;
+    height: 5%;
+    background-color: rgba(255, 30, 0, 0.589);
+    padding-block: 5px;
+    padding-inline: 10px;
+    color: white;
+}
+
+.login-register-heading {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.customer-offers {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.customer-offers ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    width: calc(60% + 30px);
+    padding: 0;
+}
+
+.customer-offers ul li p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.login-page-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.login-form {
+    width: 30%;
+}
+
+.register-form {
+    width: 30%;
+}
+
+.form-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-input-container label {
+    color: rgba(0, 0, 0, 0.658);
+    text-align: start;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    width: 70%;
+    height: 3rem;
+    font-size: 1.2rem;
+    padding-inline: 10px;
+    border: 1px rgb(0, 0, 0) solid;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    padding-inline: 10%;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.checkbox-container label {
+    font-size: 0.7rem;
+}
+
+.primary-submit-button {
+    margin-top: 15px;
+    padding-block: 15px;
+    padding-inline: 20px;
+    background-color: rgb(19, 18, 18);
+    transition: background-color 0.3s ease;
+    font-family: "Noto Sans Georgian", sans-serif;
+    color: rgba(255, 255, 255, 0.925);
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+}
+
+.primary-submit-button:hover {
+    background-color: rgba(19, 18, 18, 0.651);
+    cursor: pointer;
+}
+
+.login-register-switch {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.login-register-switch button {
+    background-color: transparent;
+    font-size: 1.4rem;
+    color: var(--black);
+    padding-inline: 35px;
+    padding-block: 10px;
+    border: 1px solid var(--black);
+}
+
+.active-button {
+    background-color: var(--black) !important;
+    color: var(--white) !important;
+}
+
+.login-register-switch {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#logoutButton {
+    color: red;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.language-switcher {
+    background-color: transparent;
+    border: none;
+    color: var(--white);
+    font-family: "Raleway";
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.language-switcher:focus {
+    outline: none;
+}
+
+.language-switcher option {
+    background: var(--black);
+}
+
+.language-switcher option:checked {
+    font-weight: bold;
+}
+
+footer {
+    height: 150px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--black);
+}
+
+footer cite {
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+        padding: 15px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .buttons-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    #buttonsContainer {
+        display: none;
+    }
+
+    #userContainer {
+        margin-right: 10px;
+        color: var(--white);
+        font-weight: bold;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: var(--black);
+        color: var(--white);
+        padding: 10px;
+        position: absolute;
+        top: 60px;
+        right: 15px;
+        z-index: 1;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: var(--white);
+        margin-bottom: 10px;
+    }
+
+    .menu a.active {
+        font-weight: bold;
+    }
+
+    .login-form,
+    .register-form {
+        width: 100%;
+        padding-inline: 15px;
+    }
+
+    .input-field {
+        width: inherit;
+    }
+
+    .primary-submit-button {
+        padding-inline: 100px;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .login-register-switch {
+        display: flex;
+    }
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    .mobile-auth-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carousel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel .card {
+        margin-bottom: 25px;
+    }
+
+    .carousel-arrow {
+        display: none;
+    }
+
+    footer cite {
+        font-size: 1rem;
+        color: var(--white);
+    }
+}
